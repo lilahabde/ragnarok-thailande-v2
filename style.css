@@ -119,14 +119,14 @@
 .memory--ro h2 .hl{color:var(--ro-gold)}
 .memory--ro .sub{font-family:var(--ro-font);font-weight:500;color:#fff;line-height:1.5;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .memory--ro .tn-cards{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left}
-.memory--ro .tn{padding:16px 18px;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:rgba(14,44,48,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;font-family:var(--ro-font)}
+.memory--ro .tn{padding:16px 18px;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:rgba(0,95,139,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;font-family:var(--ro-font)}
 .memory--ro .tn-k{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55)}
 .memory--ro .tn-then{margin:4px 0 12px;font-size:.95rem;font-weight:400;line-height:1.4;color:rgba(255,255,255,.85);text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .memory--ro .tn-k-now{color:var(--ro-gold)}
 .memory--ro .tn-now{margin:4px 0 0;font-size:1.02rem;font-weight:600;line-height:1.4;color:#fff;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .memory--ro .keyart:before{display:none}
 .memory--ro .keyart img{border:.3vh solid rgba(255,255,255,.5);border-radius:3.7vh;box-shadow:0 .7vh 1.7vh #00000059}
-.memory--ro .memory-right .bridge{font-family:var(--ro-font);font-weight:600;color:#fff;background:rgba(14,44,48,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;box-shadow:0 .7vh 1.7vh #00000059;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
+.memory--ro .memory-right .bridge{font-family:var(--ro-font);font-weight:600;color:#fff;background:rgba(0,95,139,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;box-shadow:0 .7vh 1.7vh #00000059;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
 @media(max-width:900px){
 .memory--ro{background-image:url(assets/images/bg-news-m.webp)!important}
 .memory--ro .tn-cards{grid-template-columns:1fr}
@@ -151,7 +151,7 @@
 .memory--v3 .sub{font-family:var(--ro-font);font-weight:500;color:#fff;line-height:1.5;margin:14px auto 0;max-width:44ch;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .memory--v3 .m3-body{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(28px,4vw,56px);align-items:center;margin-top:clamp(32px,4vw,52px)}
 .memory--v3 .tn-rows{list-style:none;margin:0;padding:0;display:grid;gap:12px}
-.memory--v3 .tn-row{display:grid;grid-template-columns:1fr 34px 1fr;align-items:center;gap:10px;padding:14px 18px;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:rgba(14,44,48,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;font-family:var(--ro-font)}
+.memory--v3 .tn-row{display:grid;grid-template-columns:1fr 34px 1fr;align-items:center;gap:10px;padding:14px 18px;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:rgba(0,95,139,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;font-family:var(--ro-font)}
 .memory--v3 .tn-k{display:block;font-size:.7rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
 .memory--v3 .tn-then .tn-k{color:rgba(255,255,255,.55)}
 .memory--v3 .tn-now .tn-k{color:var(--ro-gold)}
@@ -184,7 +184,7 @@
 .memory--v3 .pola-2{right:0;left:auto;top:24%;bottom:auto;transform:rotate(4deg);z-index:2}
 .memory--v3 .pola-3{left:2%;right:auto;top:auto;bottom:0;transform:rotate(-3deg);z-index:3}
 @media(max-width:900px){.memory--v3 .m3-album{height:clamp(380px,112vw,520px)}}
-.memory--v3:before{background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.08) 88%,rgba(0,0,0,.28) 100%),linear-gradient(rgba(14,44,48,.18),rgba(14,44,48,.18))}
+.memory--v3:before{background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.08) 88%,rgba(0,0,0,.28) 100%),linear-gradient(rgba(0,95,139,.18),rgba(0,95,139,.18))}
 @media(max-width:900px){
 .memory--v3 .tn-row{grid-template-columns:1fr 22px 1fr;gap:8px;padding:12px 12px}
 .memory--v3 .tn-arrow{width:22px;height:22px;margin:0;transform:none}
@@ -197,7 +197,7 @@
 
 /* === Section 2 v4 « album de souvenirs » : 4 polaroïds Then ▸ Now – charte officielle (25/11/2026) === */
 .memory--v4{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;background:#2f6f9a url(assets/images/bg-memory.webp) center/cover no-repeat!important;padding:clamp(64px,7vw,96px) 0 clamp(56px,6vw,84px)}
-.memory--v4:before{content:"";display:block!important;position:absolute;inset:0;width:auto;height:auto;border-radius:0;translate:none;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.08) 88%,rgba(0,0,0,.28) 100%),linear-gradient(rgba(14,44,48,.18),rgba(14,44,48,.18))}
+.memory--v4:before{content:"";display:block!important;position:absolute;inset:0;width:auto;height:auto;border-radius:0;translate:none;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.08) 88%,rgba(0,0,0,.28) 100%),linear-gradient(rgba(0,95,139,.18),rgba(0,95,139,.18))}
 .memory--v4 .m3-head{text-align:center;max-width:780px;margin:0 auto}
 .memory--v4 .eyebrow{font-family:var(--ro-font);font-weight:600;color:var(--ro-gold);letter-spacing:.12em;text-shadow:0 0 .9vh rgba(0,0,0,.5);background:none;border:0;padding:0}
 .memory--v4 .m4-eye:before{content:"\2726\00a0\00a0"}
@@ -365,7 +365,7 @@
 .rs .rs-head{text-align:center;max-width:780px;margin:0 auto}
 .rs .rs-head .sub{margin:14px auto 0}
 .rs .rs-grid{list-style:none;margin:clamp(32px,4vw,52px) 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,1.6vw,22px)}
-.rs .rs-card{position:relative;display:flex;flex-direction:column;overflow:hidden;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:linear-gradient(180deg,rgba(255,255,255,.14) 0%,rgba(14,44,48,.36) 55%,rgba(14,44,48,.62) 100%);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.rs .rs-card{position:relative;display:flex;flex-direction:column;overflow:hidden;border:.3vh solid rgba(255,255,255,.5);border-radius:1.9vh;background:linear-gradient(180deg,rgba(255,255,255,.14) 0%,rgba(0,95,139,.36) 55%,rgba(0,95,139,.62) 100%);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059;transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
 .rs .rs-art{height:clamp(190px,19vw,270px);display:flex;align-items:flex-end;justify-content:center;padding:14px 10px 0}
 .rs .rs-art img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform .35s ease}
 .rs .rs-txt{padding:12px 16px 18px;text-align:center}
@@ -389,7 +389,7 @@
 .lu .rs-head{text-align:center;max-width:780px;margin:0 auto}
 .lu .rs-head .sub{margin:14px auto 0}
 .lu .lu-stage{position:relative;margin-top:clamp(24px,3vw,40px)}
-.lu .lu-stage:after{content:"";position:absolute;left:0;right:0;bottom:30px;height:46%;background:radial-gradient(ellipse 60% 38% at 50% 100%,rgba(14,44,48,.45),transparent 70%);z-index:0;pointer-events:none}
+.lu .lu-stage:after{content:"";position:absolute;left:0;right:0;bottom:30px;height:46%;background:radial-gradient(ellipse 60% 38% at 50% 100%,rgba(0,95,139,.45),transparent 70%);z-index:0;pointer-events:none}
 .lu .lu-row{position:relative;z-index:1;display:flex;justify-content:center;align-items:flex-end;padding:0 24px;max-width:1400px;margin:0 auto}
 .lu .lu-duo{position:relative;flex:0 1 auto;margin:0 -1.6%;padding:0;border:0;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;z-index:calc(10 - (var(--i) - 3.5) * (var(--i) - 3.5));transition:transform .35s ease,filter .35s ease,opacity .35s ease}
 .lu .lu-duo img{display:block;height:clamp(200px,21vw,300px);width:auto;max-width:none;filter:drop-shadow(0 .7vh 1.7vh #00000059);transition:transform .35s ease}
@@ -425,15 +425,15 @@
 .lu .lu-duo img{width:auto}
 
 /* === Section 3 : alignement strict sur la charte officielle (contrôle des styles calculés, 25/11/2026) === */
-.lu{background-color:#0e2c30!important}
+.lu{background-color:#005f8b!important}
 .lu:before{background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.1) 14%,rgba(0,0,0,.1) 86%,rgba(0,0,0,.35) 100%)!important;opacity:1!important;background-size:auto!important}
 .lu .rs-head .sub{font-family:"Chiron GoRound TC","Noto Sans Thai",sans-serif;font-weight:500;color:#fff;line-height:1.5;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .lu .lu-lbl{color:rgba(255,255,255,.58)}
-.lu .lu-stage:after{background:radial-gradient(ellipse 60% 38% at 50% 100%,rgba(14,44,48,.36),transparent 70%)}
-.memory--v4{background-color:#0e2c30!important}
+.lu .lu-stage:after{background:radial-gradient(ellipse 60% 38% at 50% 100%,rgba(0,95,139,.36),transparent 70%)}
+.memory--v4{background-color:#005f8b!important}
 
 /* === Section 4 : récit cinématique au défilement – 5 illustrations officielles « Game Intro » (25/11/2026) === */
-.world--story{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;height:520vh;padding:0!important;background:#0e2c30!important;overflow:visible}
+.world--story{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;height:520vh;padding:0!important;background:#005f8b!important;overflow:visible}
 .world--story:before,.world--story:after{display:none!important}
 .world--story .ws-sticky{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;isolation:isolate}
 .world--story .ws-bgs,.world--story .ws-bg,.world--story .ws-bg img{position:absolute;inset:0;width:100%;height:100%}
@@ -478,7 +478,7 @@
 @media(max-width:900px){.world--story .ws-copy{padding-bottom:calc(112px + env(safe-area-inset-bottom))}.world--story .ws-nav{bottom:calc(112px + env(safe-area-inset-bottom))}.world--story .ws-step p{font-size:.9rem}}
 
 /* === Section 4 compacte : un écran, 5 onglets, extraits officiels de 6 s (remplace le récit au défilement, 25/11/2026) === */
-.world--tabs{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;min-height:clamp(560px,100svh,860px);display:flex;align-items:center;padding:96px 0 64px!important;background:#0e2c30!important}
+.world--tabs{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;min-height:clamp(560px,100svh,860px);display:flex;align-items:center;padding:96px 0 64px!important;background:#005f8b!important}
 .world--tabs:before,.world--tabs:after{display:none!important}
 .world--tabs .ws-bgs,.world--tabs .ws-bg,.world--tabs .ws-bg img,.world--tabs .ws-bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .world--tabs .ws-bgs{z-index:-2}
@@ -502,12 +502,12 @@
 .world--tabs .ws-tab{display:flex;align-items:baseline;gap:10px;width:100%;padding:9px 12px;border:0;border-radius:1.9vh;background:none;cursor:pointer;text-align:left;font-family:var(--ro-font);font-weight:600;font-size:.95rem;color:rgba(255,255,255,.58);text-shadow:0 0 .9vh rgba(0,0,0,.5);transition:color .3s ease,background .3s ease}
 .world--tabs .ws-tn{font-size:.8rem}
 .world--tabs .ws-tab:hover{color:#fff}
-.world--tabs .ws-tab.is-on{color:var(--ro-gold);background:rgba(14,44,48,.36)}
+.world--tabs .ws-tab.is-on{color:var(--ro-gold);background:rgba(0,95,139,.36)}
 .world--tabs .ws-tab:focus-visible{outline:2px solid var(--ro-gold);outline-offset:2px}
 @media(max-width:900px){
 .world--tabs{min-height:0;display:block;padding:0 0 28px!important}
 .world--tabs .ws-bgs{position:relative;z-index:0;height:56vw;max-height:420px}
-.world--tabs .ws-shade{bottom:auto;height:56vw;max-height:420px;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 60%,#0e2c30 100%)}
+.world--tabs .ws-shade{bottom:auto;height:56vw;max-height:420px;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 60%,#005f8b 100%)}
 .world--tabs .ws-inner{flex-direction:column;align-items:stretch;gap:16px;margin-top:-28px;position:relative}
 .world--tabs .ws-head{display:none}
 .world--tabs .ws-copy{max-width:none}
@@ -515,7 +515,7 @@
 .world--tabs .ws-step h3{font-size:1.85rem}
 .world--tabs .ws-tabs{order:-1;flex-direction:row;overflow-x:auto;gap:6px;scrollbar-width:none;margin:0 -16px;padding:0 16px}
 .world--tabs .ws-tabs::-webkit-scrollbar{display:none}
-.world--tabs .ws-tab{white-space:nowrap;padding:8px 12px;font-size:.85rem;background:rgba(14,44,48,.36)}
+.world--tabs .ws-tab{white-space:nowrap;padding:8px 12px;font-size:.85rem;background:rgba(0,95,139,.36)}
 .world--tabs .ws-cta{text-align:center}
 }
 .world--tabs .ws-inner{box-sizing:border-box;max-width:1240px;margin-inline:auto;padding-inline:clamp(24px,5vw,64px)}
@@ -552,7 +552,7 @@
 @media(min-width:901px){.world--tabs .ws-tabs{top:calc(50% - 16px)}}
 
 /* === Section « Your old party is still waiting » : écran de cinéma avec extrait officiel nostalgique (25/11/2026) === */
-.play--cinema{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,7vw,96px) 0!important;background:#0e2c30 url(assets/images/bg-play.webp) center/cover no-repeat!important}
+.play--cinema{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,7vw,96px) 0!important;background:#005f8b url(assets/images/bg-play.webp) center/cover no-repeat!important}
 .play--cinema:before{content:"";display:block!important;position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.15) 16%,rgba(0,0,0,.15) 84%,rgba(0,0,0,.4) 100%)!important;opacity:1!important}
 .play--cinema:after{display:none!important}
 .play--cinema .pc-head{text-align:center;max-width:780px;margin:0 auto}
@@ -560,13 +560,13 @@
 .play--cinema h2,.play--cinema h2 span{font-family:var(--ro-font);font-weight:600;color:#fff;letter-spacing:0;text-transform:none;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
 .play--cinema h2 .hl{color:var(--ro-gold)}
 .play--cinema .sub{font-family:var(--ro-font);font-weight:500;color:#fff;line-height:1.5;margin:14px auto 0;max-width:46ch;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
-.play--cinema .pc-screen{position:relative;width:min(1000px,100%);margin:clamp(28px,3.5vw,44px) auto 0;aspect-ratio:16/9;padding:.6vh;box-sizing:border-box;border:.3vh solid rgba(255,255,255,.5);border-radius:3.7vh;background:rgba(14,44,48,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059}
+.play--cinema .pc-screen{position:relative;width:min(1000px,100%);margin:clamp(28px,3.5vw,44px) auto 0;aspect-ratio:16/9;padding:.6vh;box-sizing:border-box;border:.3vh solid rgba(255,255,255,.5);border-radius:3.7vh;background:rgba(0,95,139,.36);-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);box-shadow:0 .7vh 1.7vh #00000059}
 .play--cinema .pc-screen video{display:block;width:100%;height:100%;object-fit:cover;border-radius:3.1vh;background:#000}
 .play--cinema .pc-cta{text-align:center;margin-top:clamp(28px,3.5vw,44px)}
 @media(max-width:900px){.play--cinema{background-image:url(assets/images/bg-play-m.webp)!important}.play--cinema .pc-screen{border-radius:2.2vh;padding:4px}.play--cinema .pc-screen video{border-radius:1.8vh}}
 
 /* === Section « moments » : grandes images officielles qui défilent toutes seules (pellicule continue) – 25/11/2026 === */
-.play--moments{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,7vw,96px) 0!important;background:#0e2c30 url(assets/images/bg-play.webp) center/cover no-repeat!important}
+.play--moments{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,7vw,96px) 0!important;background:#005f8b url(assets/images/bg-play.webp) center/cover no-repeat!important}
 .play--moments:before{content:"";display:block!important;position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.15) 16%,rgba(0,0,0,.15) 84%,rgba(0,0,0,.4) 100%)!important;opacity:1!important}
 .play--moments:after{display:none!important}
 .play--moments .pc-head{text-align:center;max-width:780px;margin:0 auto}
@@ -578,7 +578,7 @@
 .play--moments .mo-track{--w:min(56vw,720px);--g:clamp(14px,1.8vw,24px);display:flex;gap:var(--g);width:max-content;animation:mo-scroll 60s linear infinite;padding:6px 0}
 .play--moments .mo-reel:hover .mo-track{animation-play-state:paused}
 @keyframes mo-scroll{to{transform:translateX(calc(-5 * (var(--w) + var(--g))))}}
-.play--moments .mo-slide{position:relative;flex:none;width:var(--w);aspect-ratio:16/9;margin:0;border:.3vh solid rgba(255,255,255,.5);border-radius:3.7vh;overflow:hidden;box-shadow:0 .7vh 1.7vh #00000059;background:#0e2c30}
+.play--moments .mo-slide{position:relative;flex:none;width:var(--w);aspect-ratio:16/9;margin:0;border:.3vh solid rgba(255,255,255,.5);border-radius:3.7vh;overflow:hidden;box-shadow:0 .7vh 1.7vh #00000059;background:#005f8b}
 .play--moments .mo-slide img{display:block;width:100%;height:100%;object-fit:cover}
 .play--moments .mo-slide figcaption{position:absolute;left:0;right:0;bottom:0;padding:clamp(28px,4vw,48px) clamp(16px,2vw,26px) clamp(14px,1.8vw,22px);font-family:var(--ro-font);font-weight:600;font-size:clamp(1rem,1.5vw,1.3rem);line-height:1.3;color:#fff;text-shadow:0 .2vh .6vh rgba(0,95,139,.75);background:linear-gradient(180deg,transparent,rgba(0,0,0,.5))}
 .play--moments .pc-cta{text-align:center;margin-top:clamp(28px,3.5vw,44px)}
@@ -591,7 +591,7 @@
 .play--moments .mo-slide figcaption{text-align:center}
 
 /* === Section 3 étapes : parcours sur une ligne dorée, sans cartes ni icônes – charte officielle (25/11/2026) === */
-.steps--path{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;padding:clamp(64px,7vw,96px) 0!important;background-color:#0e2c30!important}
+.steps--path{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;padding:clamp(64px,7vw,96px) 0!important;background-color:#005f8b!important}
 .steps--path:before{background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.15) 16%,rgba(0,0,0,.15) 84%,rgba(0,0,0,.4) 100%)!important;opacity:1!important}
 .steps--path .head{text-align:center}
 .steps--path .eyebrow{font-family:var(--ro-font);font-weight:600;color:var(--ro-gold);letter-spacing:.12em;background:none;border:0;padding:0;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
@@ -601,27 +601,27 @@
 .steps--path .sp-path:before{content:"";position:absolute;left:16.66%;right:16.66%;top:calc(clamp(2.6rem,4.4vw,3.6rem) / 2);height:2px;background:linear-gradient(90deg,rgba(238,214,125,0),#eed67d 12%,#eed67d 88%,rgba(238,214,125,0));box-shadow:0 0 1.9vh #ffe798a6;z-index:0}
 .steps--path .step{position:relative;z-index:1;background:none!important;border:0!important;box-shadow:none!important;padding:0!important;text-align:center;-webkit-backdrop-filter:none;backdrop-filter:none}
 .steps--path .step:before,.steps--path .step:after{display:none!important;content:none!important}
-.steps--path .sp-num{display:inline-block;padding:0 14px;font-family:var(--ro-font);font-weight:600;font-size:clamp(2.6rem,4.4vw,3.6rem);line-height:1;color:var(--ro-gold);text-shadow:0 .2vh .6vh rgba(0,95,139,.75);background:radial-gradient(ellipse 60% 50% at 50% 50%,rgba(14,44,48,.9),rgba(14,44,48,0) 75%)}
+.steps--path .sp-num{display:inline-block;padding:0 14px;font-family:var(--ro-font);font-weight:600;font-size:clamp(2.6rem,4.4vw,3.6rem);line-height:1;color:var(--ro-gold);text-shadow:0 .2vh .6vh rgba(0,95,139,.75);background:radial-gradient(ellipse 60% 50% at 50% 50%,rgba(0,95,139,.9),rgba(0,95,139,0) 75%)}
 .steps--path .step h3{margin:16px 0 0;font-family:var(--ro-font);font-weight:600;font-size:clamp(1.15rem,1.6vw,1.4rem);line-height:1.25;color:#fff;letter-spacing:0;text-transform:none;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
 .steps--path .step p{margin:8px auto 0;max-width:30ch;font-family:var(--ro-font);font-weight:500;font-size:1rem;line-height:1.5;color:#fff;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .steps--path .cta-row{text-align:center;margin-top:clamp(32px,4vw,48px)}
 @media(max-width:900px){
 .steps--path .sp-path{grid-template-columns:1fr;gap:26px;max-width:420px;margin-inline:auto}
 .steps--path .sp-path:before{left:50%;right:auto;top:1.6rem;bottom:1.6rem;width:2px;height:auto;transform:translateX(-50%);background:linear-gradient(180deg,rgba(238,214,125,0),#eed67d 10%,#eed67d 90%,rgba(238,214,125,0))}
-.steps--path .sp-num{font-size:2.6rem;background:radial-gradient(ellipse 55% 55% at 50% 50%,#0e2c30,rgba(14,44,48,0) 80%)}
-.steps--path .step p{background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(14,44,48,.75),rgba(14,44,48,0) 80%)}
+.steps--path .sp-num{font-size:2.6rem;background:radial-gradient(ellipse 55% 55% at 50% 50%,#005f8b,rgba(0,95,139,0) 80%)}
+.steps--path .step p{background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(0,95,139,.75),rgba(0,95,139,0) 80%)}
 }
-.steps--path{background:#0e2c30 url(assets/images/bg-steps.webp) center/cover no-repeat!important}
+.steps--path{background:#005f8b url(assets/images/bg-steps.webp) center/cover no-repeat!important}
 @media(max-width:900px){.steps--path{background-image:url(assets/images/bg-steps-m.webp)!important}}
 @media(max-width:900px){.steps--path .sp-path:before{display:none}.steps--path .sp-num,.steps--path .step p{background:none}}
 
 /* === FAQ : charte officielle (Chiron GoRound TC, verre dépoli officiel, or #EED67D) – 25/11/2026 === */
-.faq--ro{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;padding:clamp(64px,7vw,96px) 0!important;background:#0e2c30 url(assets/images/bg-steps.webp) center/cover no-repeat!important;position:relative;isolation:isolate}
+.faq--ro{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;padding:clamp(64px,7vw,96px) 0!important;background:#005f8b url(assets/images/bg-steps.webp) center/cover no-repeat!important;position:relative;isolation:isolate}
 .faq--ro:before{content:"";display:block!important;position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.35))!important;opacity:1!important}
 .faq--ro .head{text-align:center}
 .faq--ro .eyebrow{font-family:var(--ro-font);font-weight:600;color:var(--ro-gold);letter-spacing:.12em;background:none;border:0;padding:0;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .faq--ro h2,.faq--ro h2 span{font-family:var(--ro-font);font-weight:600;color:#fff;letter-spacing:0;text-transform:none;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
-.faq--ro details{background:rgba(14,44,48,.36)!important;-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border:.3vh solid rgba(255,255,255,.5)!important;border-radius:1.9vh!important;box-shadow:0 .7vh 1.7vh #00000059!important;transition:border-color .3s ease,box-shadow .3s ease}
+.faq--ro details{background:rgba(0,95,139,.36)!important;-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border:.3vh solid rgba(255,255,255,.5)!important;border-radius:1.9vh!important;box-shadow:0 .7vh 1.7vh #00000059!important;transition:border-color .3s ease,box-shadow .3s ease}
 .faq--ro details[open]{border-color:var(--ro-gold)!important;box-shadow:0 0 1.9vh #ffe798a6,0 .7vh 1.7vh #00000059!important}
 .faq--ro summary{font-family:var(--ro-font);font-weight:600;color:#fff;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
 .faq--ro summary:after{color:var(--ro-gold)!important}
@@ -629,7 +629,7 @@
 .faq--ro h2 .hl{color:#eed67d}
 
 /* === Section finale + pied de page : charte officielle, décor officiel « home-bg » (montgolfière) – 25/11/2026 === */
-.final--ro{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;min-height:clamp(520px,90vh,760px);display:flex;align-items:center;padding:clamp(64px,7vw,96px) 0!important;background:#0e2c30 url(assets/images/bg-final.webp) 30% center/cover no-repeat!important}
+.final--ro{--ro-font:"Chiron GoRound TC","Noto Sans Thai",sans-serif;--ro-gold:#eed67d;position:relative;isolation:isolate;min-height:clamp(520px,90vh,760px);display:flex;align-items:center;padding:clamp(64px,7vw,96px) 0!important;background:#005f8b url(assets/images/bg-final.webp) 30% center/cover no-repeat!important}
 .final--ro:before{content:"";display:block!important;position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 60% 70% at 50% 50%,rgba(0,0,0,.5),rgba(0,0,0,.2) 70%),linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 75%,rgba(0,0,0,.45) 100%)!important;opacity:1!important}
 .final--ro:after{display:none!important}
 .final--ro .wrap{text-align:center;width:100%}
@@ -637,16 +637,16 @@
 .final--ro h2,.final--ro h2 span{font-family:var(--ro-font);font-weight:600;color:#fff;letter-spacing:0;text-transform:none;text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}
 .final--ro h2 .hl{color:var(--ro-gold)}
 .final--ro .sub{font-family:var(--ro-font);font-weight:500;color:#fff;line-height:1.5;max-width:46ch;margin:14px auto 28px;text-shadow:0 0 .9vh rgba(0,0,0,.5)}
-footer{background:#0e2c30!important}
+footer{background:#005f8b!important}
 footer .flinks a{font-family:"Chiron GoRound TC","Noto Sans Thai",sans-serif;font-weight:500;color:rgba(255,255,255,.85)}
 footer .flinks a:hover{color:#eed67d}
 footer .fnote{margin:14px auto 0;max-width:80ch;text-align:center;font-family:"Chiron GoRound TC","Noto Sans Thai",sans-serif;font-weight:400;font-size:.78rem;line-height:1.5;color:rgba(255,255,255,.55)}
 @media(max-width:900px){.final--ro{background-image:url(assets/images/bg-final-m.webp)!important;background-position:center}footer .fnote{padding-bottom:90px}}
 
 /* === Audit final : en-tête, lien d'évitement, barre mobile aux valeurs officielles (25/11/2026) === */
-header.top,header.top.solid{background:rgba(14,44,48,.86)!important;-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border-bottom:1px solid rgba(255,255,255,.12)!important;box-shadow:0 .7vh 1.7vh #00000059!important}
+header.top,header.top.solid{background:rgba(0,95,139,.86)!important;-webkit-backdrop-filter:blur(.5vw);backdrop-filter:blur(.5vw);border-bottom:1px solid rgba(255,255,255,.12)!important;box-shadow:0 .7vh 1.7vh #00000059!important}
 .skip{font-family:"Chiron GoRound TC","Noto Sans Thai",sans-serif!important;font-weight:600}
-.sticky{background:linear-gradient(180deg,rgba(14,44,48,0),rgba(14,44,48,.86) 40%)!important}
+.sticky{background:linear-gradient(180deg,rgba(0,95,139,0),rgba(0,95,139,.86) 40%)!important}
 /* bande fixe du haut supprimée + bande sombre du haut de la section finale supprimée (demande utilisateur, 25/11/2026) */
 header.top,header.top.solid{display:none!important}
 .final--ro:before{background:radial-gradient(ellipse 60% 70% at 50% 50%,rgba(0,0,0,.5),rgba(0,0,0,.2) 70%),linear-gradient(180deg,rgba(0,0,0,0) 75%,rgba(0,0,0,.45) 100%)!important}
@@ -654,6 +654,137 @@ header.top,header.top.solid{display:none!important}
 main>section:not(.hero):not(.ready){background-image:none!important}
 @media(min-width:901px){.hero.hero--split{background-image:none!important}}
 /* contrôle charte global : dernières couleurs hors charte (fonds de secours, lien d'accessibilité) */
-html,body,main{background-color:#0e2c30!important}
-.hero--split .hero-media,.hero--split .hero-media .hero-video,.hero-video{background-color:#0e2c30!important}
+html,body,main{background-color:#005f8b!important}
+.hero--split .hero-media,.hero--split .hero-media .hero-video,.hero-video{background-color:#005f8b!important}
 .skip{background:#eed67d!important;color:#5b3a14!important}
+
+/* === Animations d'entrée des sections (26/11/2026) : apparition en cascade quand la section arrive à l'écran.
+   Propriétés individuelles (translate/scale/rotate) pour ne jamais écraser les transform existants.
+   Actif seulement si html.ax (ajouté en tête, retiré si « animations réduites » ou si le script ne se charge pas). === */
+@keyframes axUp{from{opacity:0;translate:0 60px}}
+@keyframes axLeft{from{opacity:0;translate:-90px 0}}
+@keyframes axRight{from{opacity:0;translate:90px 0}}
+@keyframes axDrop{0%{opacity:0;translate:0 -120px;rotate:-12deg;scale:1.12}60%{opacity:1}}
+@keyframes axPop{from{opacity:0;scale:.55}}
+@keyframes axLine{from{scale:0 1}}
+@keyframes axFade{from{opacity:0;translate:0 -6px}}
+@keyframes axZoom{from{opacity:0;scale:.7}}
+@keyframes axGlow{0%,100%{filter:drop-shadow(0 0 0 #ffe79800) drop-shadow(0 6px 14px #00000066)}50%{filter:drop-shadow(0 0 1.9vh #ffe798a6) drop-shadow(0 6px 14px #00000066)}}
+/* ces blocs gardent leur place : ce sont leurs éléments qui apparaissent un à un */
+html.ax .m4-cards.rv,html.ax .lu-stage.rv,html.ax .sp-path.rv,html.ax .faq-list.rv,html.ax .final--ro .wrap.rv,html.ax .steps--path .cta-row.rv{opacity:1;transform:none;transition:none}
+/* 1. Accueil : à l'ouverture de la page */
+html.ax .hero--split .hero-copy>*{animation:axUp 1s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .hero--split .hero-copy>.hero-logo{animation-name:axZoom;animation-delay:.05s}
+html.ax .hero--split .hero-copy>h1{animation-delay:.18s}
+html.ax .hero--split .hero-copy>.sub{animation-delay:.3s}
+html.ax .hero--split .hero-copy>.cta-note,html.ax .hero--split .hero-copy>.phone-note{animation-delay:.52s}
+html.ax .hero--split .hero-media{animation:axRight 1.3s cubic-bezier(.2,.7,.2,1) .15s backwards}
+html.ax .hero-facts .fact{animation:axUp 0.87s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .hero-facts .fact:nth-child(1){animation-delay:.6s}
+html.ax .hero-facts .fact:nth-child(2){animation-delay:.7s}
+html.ax .hero-facts .fact:nth-child(3){animation-delay:.8s}
+html.ax .hero-facts .fact:nth-child(4){animation-delay:.9s}
+/* 2. Souvenirs : les 4 photos se posent l'une après l'autre */
+html.ax .memory--v4:not(.ax-in) .m4-card{opacity:0}
+html.ax .memory--v4.ax-in .m4-card{animation:axDrop 1.1s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .memory--v4.ax-in .m4-card:nth-child(2){animation-delay:.25s}
+html.ax .memory--v4.ax-in .m4-card:nth-child(3){animation-delay:.5s}
+html.ax .memory--v4.ax-in .m4-card:nth-child(4){animation-delay:.75s}
+/* 3. Classes : l'équipe se forme depuis le centre, le nom se renouvelle à chaque choix */
+html.ax .classes--ro:not(.ax-in) .lu-duo,html.ax .classes--ro:not(.ax-in) .lu-panel{opacity:0}
+html.ax .classes--ro.ax-in .lu-duo{animation:axUp 0.94s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .classes--ro.ax-in .lu-duo:nth-child(4),html.ax .classes--ro.ax-in .lu-duo:nth-child(5){animation-delay:.05s}
+html.ax .classes--ro.ax-in .lu-duo:nth-child(3),html.ax .classes--ro.ax-in .lu-duo:nth-child(6){animation-delay:.15s}
+html.ax .classes--ro.ax-in .lu-duo:nth-child(2),html.ax .classes--ro.ax-in .lu-duo:nth-child(7){animation-delay:.25s}
+html.ax .classes--ro.ax-in .lu-duo:nth-child(1),html.ax .classes--ro.ax-in .lu-duo:nth-child(8){animation-delay:.35s}
+html.ax .classes--ro.ax-in .lu-panel{animation:axUp 0.87s cubic-bezier(.2,.7,.2,1) .45s backwards}
+html.ax .classes--ro .lu-panel.lu-swap .lu-name,html.ax .classes--ro .lu-panel.lu-swap .lu-tag{animation:axFade .35s ease-out backwards}
+html.ax .classes--ro .lu-panel.lu-swap .lu-tag{animation-delay:.06s}
+/* 4. Monde : texte depuis la gauche, onglets depuis la droite */
+html.ax .world--tabs:not(.ax-in) .ws-head,html.ax .world--tabs:not(.ax-in) .ws-steps,html.ax .world--tabs:not(.ax-in) .ws-cta,html.ax .world--tabs:not(.ax-in) .ws-tabs li{opacity:0}
+html.ax .world--tabs.ax-in .ws-head{animation:axLeft 1.1s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .world--tabs.ax-in .ws-steps{animation:axLeft 1.1s cubic-bezier(.2,.7,.2,1) .15s backwards}
+html.ax .world--tabs.ax-in .ws-cta{animation:axUp 1s cubic-bezier(.2,.7,.2,1) .35s backwards}
+html.ax .world--tabs.ax-in .ws-tabs li{animation:axRight 0.87s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .world--tabs.ax-in .ws-tabs li:nth-child(1){animation-delay:.2s}
+html.ax .world--tabs.ax-in .ws-tabs li:nth-child(2){animation-delay:.28s}
+html.ax .world--tabs.ax-in .ws-tabs li:nth-child(3){animation-delay:.36s}
+html.ax .world--tabs.ax-in .ws-tabs li:nth-child(4){animation-delay:.44s}
+html.ax .world--tabs.ax-in .ws-tabs li:nth-child(5){animation-delay:.52s}
+/* 5. Moments : bouton après le défilé */
+html.ax .play--moments:not(.ax-in) .pc-cta{opacity:0}
+html.ax .play--moments.ax-in .pc-cta{animation:axUp 0.87s cubic-bezier(.2,.7,.2,1) .35s backwards}
+/* 6. Étapes : la ligne dorée se trace, les étapes s'allument 01, 02 puis 03 */
+html.ax .steps--path:not(.ax-in) .step,html.ax .steps--path:not(.ax-in) .cta-row{opacity:0}
+html.ax .steps--path:not(.ax-in) .sp-path:before{scale:0 1}
+html.ax .steps--path.ax-in .sp-path:before{transform-origin:left center;animation:axLine 1.3s cubic-bezier(.45,0,.2,1) .1s backwards}
+html.ax .steps--path.ax-in .step{animation:axUp 0.87s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .steps--path.ax-in .step .sp-num{animation:axPop .55s cubic-bezier(.3,1.5,.5,1) backwards}
+html.ax .steps--path.ax-in .step:nth-child(1),html.ax .steps--path.ax-in .step:nth-child(1) .sp-num{animation-delay:.15s}
+html.ax .steps--path.ax-in .step:nth-child(2),html.ax .steps--path.ax-in .step:nth-child(2) .sp-num{animation-delay:.55s}
+html.ax .steps--path.ax-in .step:nth-child(3),html.ax .steps--path.ax-in .step:nth-child(3) .sp-num{animation-delay:.95s}
+html.ax .steps--path.ax-in .cta-row{animation:axUp 0.87s cubic-bezier(.2,.7,.2,1) 1.25s backwards}
+/* 7. Questions : apparition une à une, réponse qui se déplie en douceur */
+html.ax .faq--ro:not(.ax-in) details{opacity:0}
+html.ax .faq--ro.ax-in details{animation:axUp 0.8s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .faq--ro.ax-in details:nth-child(2){animation-delay:.08s}
+html.ax .faq--ro.ax-in details:nth-child(3){animation-delay:.16s}
+html.ax .faq--ro.ax-in details:nth-child(4){animation-delay:.24s}
+html.ax .faq--ro.ax-in details:nth-child(5){animation-delay:.32s}
+html.ax .faq--ro details[open]>p{animation:axFade .35s ease-out}
+/* 8. Final : logo, titre, texte puis bouton ; les boutons d'accueil et final respirent avec la lueur dorée officielle */
+html.ax .final--ro:not(.ax-in) .wrap>*{opacity:0}
+html.ax .final--ro.ax-in .wrap>*{animation:axUp 1s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .final--ro.ax-in .wrap>.final-logo{animation-name:axZoom}
+html.ax .final--ro.ax-in .wrap>h2{animation-delay:.15s}
+html.ax .final--ro.ax-in .wrap>.sub{animation-delay:.3s}
+html.ax .final--ro.ax-in .wrap>.cta{animation:axUp 1s cubic-bezier(.2,.7,.2,1) .45s backwards,axGlow 2.8s ease-in-out 1.3s infinite}
+html.ax .hero--split .hero-copy>.cta{animation:axUp 1s cubic-bezier(.2,.7,.2,1) .42s backwards,axGlow 2.8s ease-in-out 1.4s infinite}
+html.ax .final--ro .wrap>.cta:hover,html.ax .hero--split .hero-copy>.cta:hover{animation:none}
+/* section 2 : les 4 photos restent sur une seule ligne sur tout écran d'ordinateur (pas 2 par 2) */
+@media(min-width:901px){.memory--v4 .m4-cards{grid-template-columns:repeat(4,1fr);max-width:none;gap:clamp(14px,1.8vw,30px)}}
+
+/* === Animations supplémentaires (26/11/2026, demande « plus d'animations ») : titres en cascade + mouvements continus discrets.
+   Couleurs uniquement de la charte : or #EED67D, crème #FFF8D9, lueur #ffe798a6. === */
+@keyframes axFloat{0%,100%{translate:0 0}50%{translate:0 -9px}}
+@keyframes axBob{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@keyframes axSheen{0%{background-position:100% 0}55%,100%{background-position:0% 0}}
+@keyframes axImgGlow{0%,100%{filter:drop-shadow(0 0 .4vh #ffe79833) drop-shadow(0 .7vh 1.7vh #00000059)}50%{filter:drop-shadow(0 0 1.9vh #ffe798a6) drop-shadow(0 .7vh 1.7vh #00000059)}}
+@keyframes axBoxGlow{0%,100%{box-shadow:0 0 0 #ffe79800}50%{box-shadow:0 0 1.9vh #ffe798a6}}
+@keyframes axNumGlow{0%,70%,100%{text-shadow:0 .2vh .6vh rgba(0,95,139,.75)}35%{text-shadow:0 0 1.9vh #ffe798a6,0 .2vh .6vh rgba(0,95,139,.75)}}
+@keyframes axRun{0%{background-position:-40% 0}100%{background-position:140% 0}}
+/* titres de section : petit titre, grand titre puis phrase, l'un après l'autre */
+html.ax .ax-head.rv{opacity:1;transform:none;transition:none}
+html.ax .ax-head:not(.ax-h)>*{opacity:0}
+html.ax .ax-head.ax-h>*{animation:axUp 1s cubic-bezier(.2,.7,.2,1) backwards}
+html.ax .ax-head.ax-h>:nth-child(2){animation-delay:.18s}
+html.ax .ax-head.ax-h>:nth-child(3){animation-delay:.36s}
+/* mots dorés des titres : un reflet crème passe dessus de temps en temps */
+html.ax .memory--v4 h2 .hl,html.ax .play--moments h2 .hl,html.ax .steps--path h2 .hl,html.ax .final--ro h2 .hl{background:linear-gradient(100deg,#eed67d 42%,#fff8d9 50%,#eed67d 58%) 100% 0/250% 100% no-repeat;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;text-shadow:none;filter:drop-shadow(0 .2vh .6vh rgba(0,95,139,.75));animation:axSheen 5s ease-in-out 1.5s infinite}
+/* boutons de chaque section : même lueur dorée qui respire */
+html.ax .tn-cta .cta,html.ax .rs-cta .cta,html.ax .ws-cta .cta,html.ax .pc-cta .cta,html.ax .steps--path .cta-row .cta{animation:axGlow 2.8s ease-in-out infinite}
+html.ax .tn-cta .cta:hover,html.ax .rs-cta .cta:hover,html.ax .ws-cta .cta:hover,html.ax .pc-cta .cta:hover,html.ax .steps--path .cta-row .cta:hover{animation:none}
+/* section 2 : les photos flottent doucement, chacune à son rythme */
+html.ax .memory--v4.ax-in .m4-card{animation:axDrop 1.1s cubic-bezier(.2,.7,.2,1) backwards,axFloat 5.5s ease-in-out 1.4s infinite}
+html.ax .memory--v4.ax-in .m4-card:nth-child(2){animation-delay:.25s,2.1s}
+html.ax .memory--v4.ax-in .m4-card:nth-child(3){animation-delay:.5s,1.7s}
+html.ax .memory--v4.ax-in .m4-card:nth-child(4){animation-delay:.75s,2.5s}
+html.ax .memory--v4 .m4-card:hover{animation-play-state:paused}
+/* section 3 : les personnages respirent, la classe choisie brille */
+html.ax .classes--ro .lu-duo img{animation:axBob 3.4s ease-in-out infinite}
+html.ax .classes--ro .lu-duo:nth-child(2n) img{animation-duration:3.9s;animation-delay:-1.3s}
+html.ax .classes--ro .lu-duo:nth-child(3n) img{animation-delay:-2.2s}
+html.ax .classes--ro .lu-duo.is-on img{animation:axBob 3.4s ease-in-out infinite,axImgGlow 2.6s ease-in-out infinite}
+/* section 4 : l'onglet actif brille doucement */
+html.ax .world--tabs .ws-tab.is-on{animation:axBoxGlow 2.6s ease-in-out infinite}
+/* section 6 : un reflet parcourt la ligne dorée, les numéros s'allument tour à tour */
+html.ax .steps--path .sp-path:after{content:"";position:absolute;left:16.66%;right:16.66%;top:calc(clamp(2.6rem,4.4vw,3.6rem) / 2);height:2px;pointer-events:none;background:linear-gradient(90deg,transparent 0,#fff8d9 50%,transparent 100%) -40% 0/22% 100% no-repeat;animation:axRun 3.6s linear 1.6s infinite;opacity:0}
+html.ax .steps--path.ax-in .sp-path:after{opacity:1;transition:opacity .4s 1.4s}
+html.ax .steps--path.ax-in .step .sp-num{animation:axPop .55s cubic-bezier(.3,1.5,.5,1) backwards,axNumGlow 3.6s ease-in-out 1.6s infinite}
+html.ax .steps--path.ax-in .step:nth-child(1) .sp-num{animation-delay:.15s,1.6s}
+html.ax .steps--path.ax-in .step:nth-child(2) .sp-num{animation-delay:.55s,2.8s}
+html.ax .steps--path.ax-in .step:nth-child(3) .sp-num{animation-delay:.95s,4s}
+@media(max-width:900px){html.ax .steps--path .sp-path:after{display:none}}
+/* section 7 : la question survolée se soulève */
+html.ax .faq--ro details{transition:translate .25s ease,border-color .25s,box-shadow .25s}
+html.ax .faq--ro details:hover{translate:0 -3px}

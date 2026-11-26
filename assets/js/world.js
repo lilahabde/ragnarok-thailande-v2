@@ -27,12 +27,14 @@
     if (!inView || document.hidden) return;
     if (useVideo) {
       var v = vid(cur);
+      v.preload = 'auto';
       if (!v.getAttribute('src')) v.src = v.getAttribute('data-src');
       try { v.currentTime = 0; } catch (e) {}
       var p = v.play();
       if (p && p.catch) p.catch(function () { timer = setTimeout(next, STEP_MS); });
       var nv = vid(cur % n + 1);
-      if (!nv.getAttribute('src')) { nv.preload = 'auto'; nv.src = nv.getAttribute('data-src'); }
+      nv.preload = 'auto';
+      if (!nv.getAttribute('src')) nv.src = nv.getAttribute('data-src');
     } else {
       timer = setTimeout(next, STEP_MS);
     }
@@ -64,6 +66,16 @@
     inView = es.some(function (e) { return e.isIntersecting; });
     if (inView !== was) run();
   }, { threshold: 0.35 }).observe(root);
+
+  // Premier extrait mis en mémoire tampon avant d'arriver sur la section.
+  if (useVideo) {
+    new IntersectionObserver(function (es, o) {
+      if (!es.some(function (e) { return e.isIntersecting; })) return;
+      o.disconnect();
+      var v = vid(1); v.preload = 'auto';
+      if (!v.getAttribute('src')) v.src = v.getAttribute('data-src');
+    }, { rootMargin: '1500px 0px' }).observe(root);
+  }
 
   root.classList.toggle('has-video', useVideo);
 })();
